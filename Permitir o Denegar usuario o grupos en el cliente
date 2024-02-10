@@ -1,0 +1,8 @@
+#Para permitir a un usuario se autentifique
+sudo realm permit --realm (dominio) (usuario)@(dominio) ~Se pueden poner mas usuarios
+#Denegar la autentificación
+sudo realm deny --all
+#Para permitir que un grupo
+sudo realm permit -g (nombre del grupo)
+#Para denegar que un grupo se pueda loguear
+sudo realm deny -g (nombre del grupo)
